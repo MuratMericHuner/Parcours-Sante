@@ -1,0 +1,38 @@
+{
+  "main": "node_modules/expo/AppEntry.js",
+  "scripts": {
+    "start": "expo start",
+    "android": "expo start --android",
+    "ios": "expo start --ios",
+    "web": "expo start --web",
+    "eject": "expo eject"
+  },
+  "dependencies": {
+    "axios": "^0.19.2",
+    "expo": "^37.0.12",
+    "expo-localization": "~8.1.0",
+    "expo-location": "~8.1.0",
+    "expo-permissions": "~8.1.0",
+    "expo-task-manager": "~8.1.0",
+    "firebase": "7.9.0",
+    "md5": "^2.2.1",
+    "react": "~16.9.0",
+    "react-dom": "~16.9.0",
+    "react-native": "https://github.com/expo/react-native/archive/sdk-37.0.1.tar.gz",
+    "react-native-bg-thread": "^1.2.0",
+    "react-native-gesture-handler": "^1.6.1",
+    "react-native-google-places-autocomplete": "^1.7.1",
+    "react-native-maps": "0.26.1",
+    "react-native-paper": "^3.9.0",
+    "react-native-reanimated": "^1.7.1",
+    "react-native-tab-view": "^2.14.0",
+    "react-native-web": "~0.11.7",
+    "rn-event-emitter": "^1.1.0",
+    "yarn": "^1.22.4"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.8.6",
+    "babel-preset-expo": "~8.1.0"
+  },
+  "private": true
+}

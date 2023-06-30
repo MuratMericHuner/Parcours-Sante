@@ -1,0 +1,41 @@
+{
+  "expo": {
+    "name": "ParcoursSante",
+    "slug": "ParcoursSante",
+    "platforms": [
+      "ios",
+      "android"
+    ],
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "bundleIdentifier": "fr.parcoursante.application",
+      "buildNumber": "1.0.0",
+      "supportsTablet": true
+    },
+    "android": {
+      "package": "fr.parcoursante.application",
+      "versionCode": 1,
+      "permissions": [
+        "ACCESS_FINE_LOCATION"
+      ],
+      "config": {
+        "googleMaps": {
+          "apiKey": "AIzaSyBInrBJvx7_98NtZus4Ze3WG91Moq70hlg"
+        }
+      }
+    }
+  }
+}
